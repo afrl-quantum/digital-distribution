@@ -1,0 +1,3 @@
+This project aims to define a low-noise digital distribution mechanism whereby
+TTL and LVTTL signals can be routed with minimal impact to/by electromagnetic
+interference to/from the environment.
