@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-4+6225~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu14.04.1)
 
   (general
     (links 215)
     (no_connects 0)
-    (area 95.862 44.217519 237.921715 123.096001)
+    (area 96.012 44.217519 237.771715 123.096001)
     (thickness 1.6)
     (drawings 8)
     (tracks 2786)
@@ -12,7 +12,15 @@
     (nets 101)
   )
 
-  (page USLegal)
+  (page USLetter)
+  (title_block
+    (title "GX3500 LVDS Driver")
+    (date 2015-10-21)
+    (rev 1.0)
+    (company "SDL for AFRL/RVBY")
+    (comment 1 "Designed by Ben Stuhl")
+  )
+
   (layers
     (0 F.Cu signal hide)
     (1 Gnd1.Cu power hide)
@@ -65,8 +73,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF6F)
     (pcbplotparams
-      (layerselection 0x010f8_80000007)
-      (usegerberextensions true)
+      (layerselection 0x2bffa_00000000)
+      (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -83,8 +91,8 @@
       (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk true)
-      (outputformat 1)
+      (subtractmaskfromsilk false)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
