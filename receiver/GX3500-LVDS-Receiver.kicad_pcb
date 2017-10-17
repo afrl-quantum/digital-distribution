@@ -1,7 +1,7 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu14.04.1)
 
   (general
-    (links 0)
+    (links 132)
     (no_connects 1)
     (area 77.612799 35.251319 215.622 105.651125)
     (thickness 1.6)
@@ -15,8 +15,8 @@
   (page USLetter)
   (title_block
     (title "GX3500 LVDS Receiver")
-    (date 10/21/2015)
-    (rev 1.0)
+    (date 2017-03-16)
+    (rev 1.1)
     (company "SDL for AFRL/RVBYE")
     (comment 1 "Designed by Ben Stuhl")
   )
@@ -1960,6 +1960,9 @@
   (gr_line (start 85.09 55.88) (end 199.39 55.88) (angle 90) (layer Edge.Cuts) (width 0.15))
 
   (via (at 118.872 76.2) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 0))
+  (segment (start 185.844 89.408) (end 185.844 88.308) (width 0.2032) (layer F.Cu) (net 0))
+  (via (at 185.42 87.884) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 0))
+  (segment (start 185.844 88.308) (end 185.42 87.884) (width 0.2032) (layer F.Cu) (net 0))
   (segment (start 102.108 80.264) (end 101.6 80.264) (width 0.635) (layer F.Cu) (net 1))
   (segment (start 101.6 80.264) (end 93.238 71.902) (width 0.635) (layer F.Cu) (net 1))
   (segment (start 93.238 71.902) (end 93.238 66.792) (width 0.635) (layer F.Cu) (net 1))
@@ -2187,9 +2190,6 @@
   (segment (start 197.612 78.74) (end 197.612 87.63) (width 0.2032) (layer Gnd.Cu) (net 6))
   (via (at 197.104 88.138) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 6))
   (segment (start 197.612 87.63) (end 197.104 88.138) (width 0.2032) (layer Gnd.Cu) (net 6))
-  (segment (start 185.844 89.408) (end 185.844 88.308) (width 0.2032) (layer F.Cu) (net 6))
-  (via (at 185.42 87.884) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 6))
-  (segment (start 185.844 88.308) (end 185.42 87.884) (width 0.2032) (layer F.Cu) (net 6))
   (segment (start 178.562 87.63) (end 178.562 91.186) (width 0.2032) (layer Gnd.Cu) (net 6))
   (via (at 177.8 91.948) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 6))
   (segment (start 178.562 91.186) (end 177.8 91.948) (width 0.2032) (layer Gnd.Cu) (net 6))

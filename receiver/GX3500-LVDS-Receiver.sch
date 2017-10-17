@@ -35,8 +35,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "GX3500 LVDS Receiver"
-Date ""
-Rev "1.0"
+Date "2017-03-16"
+Rev "1.1"
 Comp "SDL for AFRL/RVBYE"
 Comment1 "Designed by Ben Stuhl"
 Comment2 ""
