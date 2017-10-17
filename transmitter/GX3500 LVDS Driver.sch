@@ -28,11 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:afrl_conn
-LIBS:afrl_interface
-LIBS:afrl_regul
-LIBS:afrl_texas
-LIBS:afrl_device
 LIBS:GX3500 LVDS Driver-cache
 EELAYER 25 0
 EELAYER END
